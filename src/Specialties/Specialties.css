@@ -1,0 +1,37 @@
+.arrows {
+	display: flex;
+	margin-left: 900px;
+}
+
+.btn-specialties {
+	background-color: #ffffff;
+	font-size: 35px;
+	margin-top: 40px;
+	border: none;
+}
+
+.section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.discount {
+	font-size: 30px;
+}
+  
+@media all and (max-width: 1500px){
+  .arrows {
+    justify-content: center;
+    margin-left: 0;
+  }
+  .btn-specialties {
+    margin-top: 100px;
+  }
+}
+
+@media all and (max-width: 600px){
+  .discount {
+	  font-size: 15px;
+  }
+}
